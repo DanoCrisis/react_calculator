@@ -7,9 +7,37 @@
   justify-content: center;
 }
 
-#calculator_body {
+#calculator-body {
   height: 600px;
   width: 400px;
   background-color: rgb(63, 63, 63);
-  border: 3px solid black
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#screen {
+  height: 150px;
+  width: 350px;
+  background-color: black;
+  margin: 25px;
+  display: flex;
+  justify-content: right;
+  align-content: center;
+}
+
+#screen-text {
+  margin-right: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  color: blue;
+}
+
+#buttons {
+  height: 450px;
+  width: 350px;
+  background-color: black;
+  margin: 25px;
+  margin-top: 0px;
 }
